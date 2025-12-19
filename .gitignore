@@ -1,0 +1,49 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
+
+# --- Env / secrets ---
+.env
+.env.*
+
+# --- App-specific (NudiLog) ---
+backend/uploads/
+backend/nudilog.db
+backend/*.db
+backend/logs/
+
+# If you later use SQLite elsewhere
+*.sqlite
+*.sqlite3
+
+# --- Node / frontend (if Bolt/Lovable outputs locally) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.next/
+out/
+dist/
+build/
